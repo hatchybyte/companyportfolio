@@ -552,20 +552,9 @@ video {
   left: -10px;
 }
 
-.timeline-item .content {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-  position: relative;
-  z-index: 2;
-}
 
-.code-card {
-  background: linear-gradient(145deg, #1f1f1f, #292929);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-}
+
+
 
 .code-card:hover {
   transform: translateY(-10px);
