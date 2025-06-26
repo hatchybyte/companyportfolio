@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="img/logo.png">
+  <title>HatchyByte</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-custom px-4 py-3">
+  <div class="container-fluid">
+      <img src="img/logo1.png" alt="HatchyByte Logo" width="150" height="150"  >
+    <button class="hamburger d-lg-none" id="openMenu">&#9776;</button>
+    <div class="collapse navbar-collapse justify-content-end desktop-menu">
+      <ul class="navbar-nav me-3 mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " href="index.html">Home</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="service.html">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="project.html">Project</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="team.html">Our Team</a>
+        </li>
+        
+      </ul>
+      <a href="contact.html" class="btn btn-contact">Contact Us</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="btn-close" id="closeMenu">&times;</button>
+  <a href="index.html" class="nav-link active">Home</a>
+  <a href="about.html" class="nav-link">About</a>
+  <a href="service.html" class="nav-link">Service</a>
+  <a href="project.html" class="nav-link">Project</a>
+  <a href="team.html" class="nav-link">Our Team</a>
+  <a href="contact.html" class="btn btn-contact mt-3">Contact Us</a>
+</div>
+
+
+<section class="hero-section position-relative text-white" style="background: url('https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHRlY2hub2xvZ3l8ZW58MHx8MHx8fDI%3D') center/cover no-repeat; height: 100vh;">
+  <div class="overlay position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0, 0, 0, 0.6); z-index: 1;"></div>
+
+  <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-center position-relative" style="z-index: 2;">
+    <h1 class="display-3 fw-bold mb-3 animate__animated animate__fadeInDown">HatchyByte B.A.E.D.</h1>
+    <p class="lead mb-4 animate__animated animate__fadeInUp animate__delay-1s">Building Advanced Engineering Dreams</p>
+    <div class="d-flex gap-3">
+      <a href="about.html" class="btn btn-light px-4 py-2 rounded-pill animate__animated animate__fadeInUp animate__delay-2s">Get Started</a>
+      <a href="contact.html" class="btn btn-outline-light px-4 py-2 rounded-pill animate__animated animate__fadeInUp animate__delay-2s">Contact Us</a>
+    </div>
+  </div>
+</section>
+<section class="project-timeline-section py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5 display-5" data-aos="zoom-in">🧩 Our Milestone Projects</h2>
+
+    <!-- Timeline Wrapper -->
+    <div class="timeline">
+
+      <!-- Project 1 - Left -->
+     
+
+      <!-- Project 2 - Right -->
+      <div class="timeline-item left" data-aos="fade-left">
+        <div class="content">
+          <span class="badge bg-warning text-dark mb-2">In Progress</span>
+          <h3 class="fw-bold">Cloud Optimization Tool</h3>
+          <p>
+            A smart cloud analytics platform to reduce infrastructure costs using AI-driven insights. Supports AWS,
+            Azure, and GCP with automation for alerts and billing breakdowns.
+          </p>
+          <small class="text-muted">Focus: SaaS, Internal Infrastructure</small>
+        </div>
+      </div>
+       <div class="timeline-item right" data-aos="fade-right">
+        <div class="content">
+          <span class="badge bg-warning mb-2 text-dark">In Progress</span>
+          <h3 class="fw-bold">Qora – Quiz & Earn App</h3>
+          <p>
+            A revolutionary platform allowing users to participate in real-time quizzes and earn real money.
+            Features include wallet integration, leaderboard tracking, and multi-language quiz management system.
+          </p>
+          <small class="text-muted">Platforms: Android, iOS, Admin Web Portal</small>
+        </div>
+      </div>
+
+      <!-- Project 3 - Left -->
+      <div class="timeline-item left" data-aos="fade-left">
+        <div class="content">
+          <span class="badge bg-info text-dark mb-2">Coming Soon</span>
+          <h3 class="fw-bold">Smart Menu & Ordering System</h3>
+          <p>
+            A seamless digital ordering experience for restaurants. Includes QR-based menus, tablet integration, and
+            multilingual dish customization. Designed for scale in cafes & hotels.
+          </p>
+          <small class="text-muted">Tech Stack: PWA, Node.js, Firebase</small>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="py-5 bg-light text-dark">
+  <div class="container">
+    <h2 class="text-center display-5 fw-bold mb-5" data-aos="fade-up">Industries We Serve</h2>
+    
+    <div class="row g-4">
+
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+        <div class="p-4 bg-white shadow rounded-4 h-100">
+          <div class="mb-3">
+            <i class="fas fa-graduation-cap fa-2x text-primary"></i>
+          </div>
+          <h5 class="fw-bold mb-2">EdTech</h5>
+          <p class="small">Interactive quiz apps, gamified learning platforms (like Qora), student tracking tools, and online assessments.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="p-4 bg-white shadow rounded-4 h-100">
+          <div class="mb-3">
+            <i class="fas fa-stethoscope fa-2x text-success"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Healthcare</h5>
+          <p class="small">Cloud-based appointment systems, e-prescription tools, and secure patient management applications.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="p-4 bg-white shadow rounded-4 h-100">
+          <div class="mb-3">
+            <i class="fas fa-briefcase fa-2x text-warning"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Enterprise Tools</h5>
+          <p class="small">Internal dashboards, workflow automation, custom CRM systems, and optimization utilities.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="p-4 bg-white shadow rounded-4 h-100">
+          <div class="mb-3">
+            <i class="fas fa-utensils fa-2x text-danger"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Hospitality</h5>
+          <p class="small">Smart menu apps, digital ordering for hotels/restaurants, and guest management systems.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="400">
+        <div class="p-4 bg-white shadow rounded-4 h-100">
+          <div class="mb-3">
+            <i class="fas fa-store fa-2x text-info"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Retail & E-Commerce</h5>
+          <p class="small">Multi-vendor platforms, custom checkout systems, inventory analytics, and mobile shopping apps.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="500">
+        <div class="p-4 bg-white shadow rounded-4 h-100">
+          <div class="mb-3">
+            <i class="fas fa-coins fa-2x text-secondary"></i>
+          </div>
+          <h5 class="fw-bold mb-2">FinTech</h5>
+          <p class="small">E-wallet integrations, payment systems, and financial tracking apps with data security focus.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3">
+                        <h5 class="text-white mb-4">Get In Touch</h5>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Singsandra, India</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+91 6361285589</p>
+                        <p><i class="fa fa-envelope me-3"></i>info@teksedra.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                     <div class="col-md-6 col-lg-3">
+                        <h5 class="text-white mb-4">Our Services</h5>
+                        <a class="btn btn-link" href="service.html" style="text-decoration: none;">Web APP</a>
+                         <a class="btn btn-link" href="service.html" style="text-decoration: none;">Mobile APP</a>
+                          <a class="btn btn-link" href="service.html" style="text-decoration: none;">Cloud Services</a>
+                          <a class="btn btn-link" href="service.html" style="text-decoration: none;">Domain Reseller</a>
+                       
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h5 class="text-white mb-4">Popular Link</h5>
+                        <a class="btn btn-link" href="about.html" style="text-decoration: none;">About Us</a>
+                        <a class="btn btn-link" href="contact.html" style="text-decoration: none;">Contact Us</a>
+                        <a class="btn btn-link" href="privacy.html" style="text-decoration: none;">Privacy Policy</a>
+                        <a class="btn btn-link" href="term.html" style="text-decoration: none;">Terms & Condition</a>
+                        <a class="btn btn-link" href="carrer.html" style="text-decoration: none;">Career</a>
+                    </div>
+                   
+                    <div class="col-md-6 col-lg-3">
+                        <h5 class="text-white mb-4">Newsletter</h5>
+                        <p></p>
+                        <div class="position-relative w-100 mt-3">
+                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
+                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a  href="#" style="text-decoration: none;"> HatchyByte</a>, All Right Reserved. 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							Designed By <a  href="https://hatchybyte.com/" style="text-decoration: none;">HatchyByte</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="" style="text-decoration: none;">Home</a>
+                                <a href="" style="text-decoration: none;">Cookies</a>
+                                <a href="" style="text-decoration: none;">Help</a>
+                                <a href="" style="text-decoration: none;">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<script src="https://cdn.jsdelivr.net/npm/mixitup@3/dist/mixitup.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+       
+<script src="script.js">
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
